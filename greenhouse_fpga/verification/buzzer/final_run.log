@@ -1,0 +1,49 @@
+# if {![file exists work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog -sv -f files.f
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 22:06:45 on Oct 22,2026
+# vlog -reportprogress 300 -sv -f files.f 
+# -- Compiling module pcm_media_tone
+# -- Compiling module status_buzzer_output
+# -- Compiling module tb_status_buzzer
+# 
+# Top level modules:
+# 	tb_status_buzzer
+# End time: 22:06:45 on Oct 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=+acc -wlf buzzer.wlf work.tb_status_buzzer
+# onfinish stop
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# delete wave *
+# add wave -noupdate -label reset sim:/tb_status_buzzer/rst
+# add wave -noupdate -radix unsigned -label severity_0G_1Y_2R sim:/tb_status_buzzer/severity
+# add wave -noupdate -label BUZZER_pin sim:/tb_status_buzzer/buzzer
+# add wave -noupdate -radix decimal -label PCM sim:/tb_status_buzzer/pcm
+# add wave -noupdate -radix unsigned -label red_cadence_cycles sim:/tb_status_buzzer/dut/red_cadence
+# add wave -noupdate -radix decimal -label errors sim:/tb_status_buzzer/errors
+# configure wave -namecolwidth 280
+# configure wave -valuecolwidth 130
+# configure wave -rowmargin 8
+# update
+# onbreak {resume}
+# run -all
+# Break in Module tb_status_buzzer at D:/FPGA/lab_ex4_tf/.report_work/sim_evidence/buzzer/tb_status_buzzer.v line 91
+# set errors [examine -radix decimal sim:/tb_status_buzzer/errors]
+# 0
+# echo "EVIDENCE_BUZZER errors=$errors"
+# EVIDENCE_BUZZER errors=0
+# wave zoom full
+# 0 ps
+# 4465091429879 ps
+# update
+# 
+# 
+# 
+# 
+# 0
+# reading modelsim.ini

@@ -1,0 +1,63 @@
+# if {![file exists work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog -sv -f files.f
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 22:07:13 on Oct 22,2026
+# vlog -reportprogress 300 -sv -f files.f 
+# -- Compiling module alarm_blink_ctrl
+# -- Compiling module alarm_threshold_cmp
+# -- Compiling module osd_overlay_mixer
+# -- Compiling module page_transition_ctrl
+# -- Compiling module monitor_transition_ctrl
+# -- Compiling module sim_sensor_data_gen
+# -- Compiling module status_osd_overlay
+# -- Compiling module trend_waveform_draw
+# -- Compiling module osd_button
+# -- Compiling module ui_page_ctrl
+# -- Compiling module display_parameter_ctrl
+# -- Compiling module video_display_adjust
+# -- Compiling module display_parameter_hud
+# -- Compiling module tb_wave_persist
+# 
+# Top level modules:
+# 	display_parameter_ctrl
+# 	tb_wave_persist
+# End time: 22:07:13 on Oct 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=+acc -wlf history.wlf work.tb_wave_persist
+# onfinish stop
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# delete wave *
+# add wave -noupdate -label KEY2_active_low sim:/tb_wave_persist/k1
+# add wave -noupdate -radix unsigned -label zone_0A_1B_2C_3D sim:/tb_wave_persist/dut/ui/zone
+# add wave -noupdate -label sample_1Hz sim:/tb_wave_persist/dut/sample_now
+# add wave -noupdate -radix decimal -label sample_total sim:/tb_wave_persist/samples
+# add wave -noupdate -radix unsigned -label history_count_max128 sim:/tb_wave_persist/dut/wave/count
+# add wave -noupdate -radix unsigned -label ring_write_pointer sim:/tb_wave_persist/dut/wave/wp
+# add wave -noupdate -radix decimal -label checks sim:/tb_wave_persist/checks
+# add wave -noupdate -radix decimal -label errors sim:/tb_wave_persist/errors
+# configure wave -namecolwidth 280
+# configure wave -valuecolwidth 130
+# configure wave -rowmargin 8
+# update
+# onbreak {resume}
+# run -all
+# Break in Module tb_wave_persist at D:/FPGA/lab_ex4_tf/.report_work/sim_evidence/history/tb_wave_persist.v line 57
+# set errors [examine -radix decimal sim:/tb_wave_persist/errors]
+# 0
+# echo "EVIDENCE_HISTORY errors=$errors"
+# EVIDENCE_HISTORY errors=0
+# wave zoom full
+# 0 ps
+# 160232100 us
+# update
+# 
+# 
+# 
+# 
+# 0
+# reading modelsim.ini

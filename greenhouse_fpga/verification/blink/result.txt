@@ -1,0 +1,1 @@
+BLINK_RESULT errors=0 red_edges=16 yellow_edges=4 green_edges=2

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "PIC1.BMP",
+    "source": "由 bg0.hex 无损还原 RGB 像素；原始 BMP 文件未找到。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "94b9375fa22ec626859e1f036677934c5cb3574752566896b841b7b71c3698c5"
+  },
+  {
+    "file": "PIC2.BMP",
+    "source": "由 bg1.hex 无损还原 RGB 像素；原始 BMP 文件未找到。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "d79f09814dd34872e599a42fa46ce700210107f0ae10d1e6e17747120ee01e3b"
+  },
+  {
+    "file": "PIC3.BMP",
+    "source": "由 bg2.hex 无损还原 RGB 像素；原始 BMP 文件未找到。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "e0a06829be5bfab6db48237eb3bc1f82e1b3820636caae6a62d781f91f5a17c6"
+  },
+  {
+    "file": "PIC4.BMP",
+    "source": "由 bg3.hex 无损还原 RGB 像素；原始 BMP 文件未找到。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "148a6cf8d026287fbed58c1b0fed5ef08d11228d7a579bad6d1f60a14466bb47"
+  },
+  {
+    "file": "PIC5.BMP",
+    "source": "直接复制原工程 BMP。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "a4e5bf08e0f9de5927c87cc2f133140f486d54086cff30cfd153c4dc8cf93f8e"
+  },
+  {
+    "file": "PIC6.BMP",
+    "source": "直接复制原工程 BMP。",
+    "matches_saved_sim_pixels": true,
+    "sha256": "62fcfde1ddc1a770d4fb2159a4734db15d3512953ee2f05aed521945e403802f"
+  }
+]

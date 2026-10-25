@@ -1,0 +1,7 @@
+RED_DRIVE high=24000 old_high=20000 edges=200
+BUZZER state=0 samples=48000 rising_edges=0 quiet_samples=0
+BUZZER state=1 samples=48000 rising_edges=264 quiet_samples=28799
+BUZZER state=2 samples=6000 rising_edges=201 quiet_samples=1198
+BUZZER state=1 samples=48000 rising_edges=264 quiet_samples=28799
+BUZZER state=0 samples=48000 rising_edges=0 quiet_samples=0
+STATUS_BUZZER_RESULT errors=0

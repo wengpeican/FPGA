@@ -1,0 +1,13 @@
+models.v
+tb_pic5_control.v
+../../user_source/hdl_source/SD/sd_card_bmp.v
+../../user_source/hdl_source/SD/bmp_read.v
+../../user_source/hdl_source/SD/frame_read_write.v
+../../user_source/hdl_source/SD/frame_fifo_write.v
+../../user_source/hdl_source/SD/frame_fifo_read.v
+../../user_source/hdl_source/lesson5/reset_sync.v
+../../user_source/hdl_source/lesson6/sd_sector_adapter.v
+../../user_source/hdl_source/lesson6/fat32_volume_scanner.v
+../../user_source/hdl_source/lesson6/fat32_file_streamer.v
+../../user_source/hdl_source/lesson6/bmp_stream_decoder.v
+../../user_source/hdl_source/lesson6/fat32_bmp_backend.v

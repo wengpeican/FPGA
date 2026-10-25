@@ -1,0 +1,34 @@
+[
+  {
+    "case": "osd",
+    "top": "tb_osd",
+    "original": "D:\\FPGA\\lab_ex4_tf\\src\\sim\\osd\\tb_osd.v",
+    "sha256": "c3b5eafd77cd2b74ab291b3c618869638003fb8c0eb10015ee075028c1cc87c0",
+    "clock_change": "always #20 clk=~clk",
+    "watchdog_extended": false
+  },
+  {
+    "case": "blink",
+    "top": "tb_blink",
+    "original": "D:\\FPGA\\lab_ex4_tf\\src\\sim\\osd\\tb_blink.v",
+    "sha256": "fbdac81391879183c2b79050a201f3167c56ecf8422216b1b22d9a6937a77769",
+    "clock_change": "always #625000 clk=~clk",
+    "watchdog_extended": false
+  },
+  {
+    "case": "buzzer",
+    "top": "tb_status_buzzer",
+    "original": "D:\\FPGA\\lab_ex4_tf\\src\\sim\\status_buzzer\\tb_status_buzzer.v",
+    "sha256": "d1d34a21bfaae05d96aa3f1a8e899b2a96ca57a6c5950089fc13a138188dc853",
+    "clock_change": "always #1041.666667 clk=~clk",
+    "watchdog_extended": true
+  },
+  {
+    "case": "history",
+    "top": "tb_wave_persist",
+    "original": "D:\\FPGA\\lab_ex4_tf\\src\\sim\\osd\\tb_wave_persist.v",
+    "sha256": "e22101304224ef277d7a6c9ce632b3d6ad99c1c6caa15ee4d3163c54e6aabda4",
+    "clock_change": "always #250000 clk=~clk",
+    "watchdog_extended": true
+  }
+]
